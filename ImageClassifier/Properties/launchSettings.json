@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImageClassifier": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\demo\\CustomImageClassifier\\ImageClassification.Test\\assets\\test\\cake\""
+    }
+  }
+}

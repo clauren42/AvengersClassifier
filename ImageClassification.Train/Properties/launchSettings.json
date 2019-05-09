@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImageClassification.Train": {
+      "commandName": "Project",
+      "commandLineArgs": "-train -test"
+    }
+  }
+}

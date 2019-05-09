@@ -1,0 +1,274 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+  </ItemGroup>
+  
+   <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.0.0-preview" />
+    <PackageReference Include="Microsoft.ML.ImageAnalytics" Version="1.0.0-preview" />
+    <PackageReference Include="Microsoft.ML.TensorFlow" Version="0.12.0-preview" />
+  </ItemGroup>
+  
+   <ItemGroup>
+     <ProjectReference Include="..\ImageClassifierLib\ImageClassifierLib.csproj" />
+   </ItemGroup>
+  
+   <ItemGroup>
+     <None Update="assets\test\captain_america\Captain-America-The-First-Avenger-Wa.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\captain_america\ciY68hiP_400x400.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\captain_america\HTY-902328-2.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\captain_america\marvel-captain-america-civil-war-cap.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\hICiK45A_400x400.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\hulk-6.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\Hulk-Age-of-Ultron-Throw-Pillow.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\hulk-avengers-assemble-wall-jammer-w-1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\hulk-marvel.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\HULK-the-incredible-hulk-558838_303_.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\hulk2-785951-1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\hulk2-785951.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\incredible-hulk-20070910014344353-00.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\IncredibleHulk-1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\LouferrignoWeightsGreen.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\NutriTechfit-Hulk-Gainer-HULK-SMASH.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\standard_incredible.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\the-incredible-hulk-mobile-wallpaper-1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\hulk\the_incredible_hulk-6679.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\11012587_10203782376419786_986738143.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\350x350-hottoys-IronMan.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\41kAqxrMVgL._SL500_AC_SS350_.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\510WFXiGM2L._SY355_.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\5243b66df7adb6d2c934734537917862.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\8a83b6a96b42b41f6b4a81f7fbca642c.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\Deadpools-Ironman-Suit-Looks-Epic_40.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\eabed95f09a220951554dec9cdaf5f0f.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\hqdefault.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\iron-man-marvel-avengers-assemble-li.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\iron-man.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\IRONMAN+3+MOVIE+POSTER+WALLPAPER+IRO.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\ironman-avengers.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\Ironman-Ironing-iron-man-4142316-387.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\ironman.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\ironman\ironman_cartoon-t2.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\55266009_max.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Avengers-infinity-war-final-trailer-.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-gauntlet-stone.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-promo-art-than.jpeg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-thanos-1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-thanos-5.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Avengers-Infinity-War-Thanos-and-com.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-thanos-black-o.jpeg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Avengers-Infinity-War-Thanos-D23-Pos.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Avengers-Infinity-War-Thanos-Hot-Toy.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Avengers-Infinity-War-Thanos-in-Armo.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-thanos-josh-br.jpeg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Avengers-Infinity-War-Thanos-New-Loo.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-thanos.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-thanos1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-trailer-thanos-1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Avengers-Infinity-War-Trailer-Thanos.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\avengers-infinity-war-wildest-fan-th.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\D23-Avengers-Infinity-War-Thanos09__-1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\digital-domain_avengers-infinity-war.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\DZE6JOPX4AE1Gda.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Hot-Toys-Infinity-War-Thanos-007-928.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\marvel-avengers-infinity-war-thanos-.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\PD15227511730x7.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Thanos-wears-the-Infinity-Gauntlet-i.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thanos\Thor-and-Thanos-in-Avengers-Infinity.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\0308-thor-main2-480x360.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\5031923-thor_theavengers.png">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\avengers-thor-chris-hemsworth-image-.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\Comic-Thor.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\hqdefault-1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\hqdefault.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\marvel-thor-1.png">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\marvel-thor-ragnarok-gladiator-thor-.png">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\marvel-thor.png">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\open-uri20150422-20810-1b6qsqa_0cdab.png">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\The-Avengers-Thor-psd82186.png">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\Thor+2+Movie.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\thor-1.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\thor-avengers.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\thor-chris-hemsworth-workout4x4.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\thor-Costume-Small.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\thor-end-credits-scene.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\thor-movie-poster-2.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\thor.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\thor.png">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+     <None Update="assets\test\thor\thor_360.jpg">
+       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+     </None>
+   </ItemGroup>
+
+</Project>

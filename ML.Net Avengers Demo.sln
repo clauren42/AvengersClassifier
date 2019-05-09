@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassification.Train", "ImageClassification.Train\ImageClassification.Train.csproj", "{4C963C3B-DFC9-4236-BA85-C8C71D27CE3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassification.Test", "ImageClassification.Test\ImageClassification.Test.csproj", "{0069E0D5-38FA-452D-BE0D-38020FC26F4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassifierLib", "ImageClassifierLib\ImageClassifierLib.csproj", "{17911E56-2BF5-4AD7-9C6A-9FD73A90E871}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassifier", "ImageClassifier\ImageClassifier.csproj", "{3413C552-EF29-43C6-8D0F-AD6F70C00563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageClassifierWebApp", "ImageClassifierWebApp.csproj", "{68B910AE-25D4-4B12-BB9E-D13B3755F09B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C963C3B-DFC9-4236-BA85-C8C71D27CE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C963C3B-DFC9-4236-BA85-C8C71D27CE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C963C3B-DFC9-4236-BA85-C8C71D27CE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C963C3B-DFC9-4236-BA85-C8C71D27CE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0069E0D5-38FA-452D-BE0D-38020FC26F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0069E0D5-38FA-452D-BE0D-38020FC26F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0069E0D5-38FA-452D-BE0D-38020FC26F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0069E0D5-38FA-452D-BE0D-38020FC26F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17911E56-2BF5-4AD7-9C6A-9FD73A90E871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17911E56-2BF5-4AD7-9C6A-9FD73A90E871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17911E56-2BF5-4AD7-9C6A-9FD73A90E871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17911E56-2BF5-4AD7-9C6A-9FD73A90E871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3413C552-EF29-43C6-8D0F-AD6F70C00563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3413C552-EF29-43C6-8D0F-AD6F70C00563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3413C552-EF29-43C6-8D0F-AD6F70C00563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3413C552-EF29-43C6-8D0F-AD6F70C00563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B910AE-25D4-4B12-BB9E-D13B3755F09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B910AE-25D4-4B12-BB9E-D13B3755F09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B910AE-25D4-4B12-BB9E-D13B3755F09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B910AE-25D4-4B12-BB9E-D13B3755F09B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {641A6425-D190-4C6C-9088-18296CA71937}
+	EndGlobalSection
+EndGlobal

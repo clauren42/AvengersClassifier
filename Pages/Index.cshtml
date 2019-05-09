@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@section Scripts {
+    <script src="~/js/JavaScript.js"></script>
+}
+
+<style>
+    ul { list-style-type:none; margin-top: 20px; }
+    ul li { display: inline-block; }
+    img { padding: 10px; }
+    img.active { border: 1px solid #ddd; }
+    #result { height: 400px; }
+    #imagediv {
+        background-color: white;
+        align-content :center
+    }
+</style>
+
+<div class="container text-center" width="1200">
+    <div style="font-size:xx-large; align-content:center"><b>A few sample images</b></div>
+    <table>
+        <tr>
+            <td><img class="input-image" src="~/tempImages/1.jpg" alt="Sample Photo" height="300" width="300" /></td>
+            <td><img class="input-image" src="~/tempImages/2.jpg" alt="Sample Photo" height="300" width="300" /></td>
+            <td><img class="input-image" src="~/tempImages/3.jpg" alt="Sample Photo" height="300" width="300" /></td>
+            <td><img class="input-image" src="~/tempImages/12.png" alt="Sample Photo" height="300" width="300" /></td>
+           
+
+        </tr>
+        <tr>
+            <td><img class="input-image" src="~/tempImages/5.jpg" alt="Sample Photo" height="300" width="300" /></td>
+            <td><img class="input-image" src="~/tempImages/6.jpg" alt="Sample Photo" height="300" width="300" /></td>
+            <td><img class="input-image" src="~/tempImages/7.jpg" alt="Sample Photo" height="300" width="300" /></td>
+            <td><img class="input-image" src="~/tempImages/8.jpg" alt="Sample Photo" height="300" width="300" /></td>
+            
+        </tr>
+    </table>
+    <div style="font-size:xx-large"><b>Prediction</b></div>
+    <div id="imagediv">
+        <label style="font-size:xx-large" id="predictionDiv"/>
+    </div>
+    
+</div>
+
+
+
+
+
+
+
